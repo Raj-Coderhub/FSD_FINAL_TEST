@@ -5,7 +5,7 @@ const app = express();
 // Allow JSON input
 app.use(express.json());
 
-// Hardcoded user (No Database)
+// Hardcoded user 
 const user = {
     username: "RAJ GAUTAM",
     password: "1234"
